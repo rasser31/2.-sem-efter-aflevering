@@ -1,0 +1,56 @@
+@media only screen and (max-width: 600px){
+    body{
+        background-color: white;
+    }
+    .mobileLogo {
+        width: 80%;
+        margin-left: 0px;
+    }
+    .mobileHeader{
+        height: auto;
+    }
+   .tilbageUdlejning {
+        float: right;
+        margin: 2vw;
+        font-size: 8vw;
+   }
+   .boks {
+       font-size: 100px;
+       width: auto;
+   }
+
+   ol {
+        margin: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+   }
+
+   ol .listContainer {
+       margin: 0px;
+   }
+
+   li {
+        margin: 0px;
+        padding-bottom: 5px;
+   }
+
+   .li {
+        text-align: left;
+   }
+
+   .listContainer {
+       margin: 3vw;
+       margin-right: 7vw;
+       width: 90%;
+   }
+
+   .listHeader {
+       padding-right: 0px;
+       margin: 0px;
+   }
+
+   main {
+       margin: 0px;
+   }
+}
