@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Hos Træksmeden kan du forvente et seriøst firma, der sikrer kvalitet til gode priser. Vi tilbyder Smedearbejde, Hydraulik, Syn og meget mere">
+    <meta name="keywords" content="Træksmeden, Metal, Din lokale smed, Smedearbejde, Hydraulik, Syn, Reperation, lastbil, kran, svejs, gravko">
+    <meta name="author" content="Træksmeden ApS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--OPEN GRAPH som gøre det visuelt pænt når siden bliver vist på forskellige sociale medier - Open Graph protocol -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Træksmeden ApS" />
+    <meta property="og:url" content="index.html"/>
+    <meta property="og:description" content="Træksmeden er et seriøst firma, der sikrer kvalitet til gode priser. Vi tilbyder Smedearbejde, Hydraulik, Syn og meget mere"/>
+    <meta property="og:image" content="gallery/background/background.png"/>
+
+    <!--Indsættelse af robots.txt for at sikre at robotter scan siden igennem-->
+    <meta name="robots" content="noindex, nofollow">
+
+    <link rel="canonical" href="https://www.traeksmeden.dk/"/>
+    
+    <!-- Vores css dokumenter -->
+    <link rel="stylesheet" href="forsideNy.css">
+    <link rel="stylesheet" href="footer.css">
+    <!-- Link til css animate.style dokument, til brug af animationer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- Titel og favicon -->
+    <title>Træksmeden ApS</title>
+    <link rel="icon" type="image/x-icon" href="gallery/logos/rund_favicon.png">
+
+    <!-- The fonts we use -->
+    <link rel="stylesheet" href="https://use.typekit.net/lru6wig.css"> <!-- Adobe font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,200&display=swap" rel="stylesheet"> <!-- Google font - Libre Franklin -->
+    <link href="https://fonts.googleapis.com/css2?family=Carme&display=swap" rel="stylesheet"> <!-- Google font - Carme -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@700&display=swap" rel="stylesheet"> <!-- Google font - Hindi Madurai -->
+</head>
+<body>
+    <!-- Vores header element -->
+    <header class="desktopHeader">
+        <!-- Logo -->
+        <a class="logoBox" href="index.html">
+            <img class="logo" src="gallery/logos/firmanumre.jpg" alt="Logo">
+        </a>
+
+        <!-- Navbar -->
+        <nav>
+            <button class="nav" onclick="navbarForside()">FORSIDE</button>
+            <button class="nav" onclick="navbarVitilbyder()">VI TILBYDER</button>
+            <button class="nav underline" onclick="navbarOmOs()">OM OS</button>
+            <button class="nav" onclick="navbarKontaktOs()">KONTAKT OS</button>
+            <button class="nav" onclick="navbarUdlejning()">UDLEJNING</button>
+        </nav>
+    </header>
+
+    <!-- Mobil headeren -->
+    <!-- Vi har taget i brug af W3Schools how to version af en mobil navigationsbar, samt stylet på den, så den ikke er præcist som de for den udført -->
+    <!-- https://www.w3schools.com/howto/howto_js_mobile_navbar.asp -->
+    <header class="mobileHeader">
+        <div class="topnav">
+            <!-- Logoet fremvist i midten -->
+            <a href="index.html"><img class="mobileLogo" src="gallery/logos/mobileLogo.png" alt="Mobile Logo"></a>
+            <!-- Dropdown menuen -->
+            <div id="mobileNavbarLinks">
+                <a class="burgernav" href="index.html">FORSIDE</a>
+                <a class="burgernav" href="vi_tilbyder.html">VI TILBYDER</a>
+                <a class="burgernav" href="om_os.html">OM OS</a>
+                <a class="burgernav" href="kontakt_os.html">KONTAKT OS</a>
+                <a class="burgernav" href="#">UDLEJNING</a>
+            </div>
+            <!-- Burgermenu ikonet med given funktion -->
+            <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+          </div>
+    </header>
+
+    <!-- Hovedindhold på siden -->
+    <main>
+        <!-- Text med baggrund som værende det første man ser på siden -->
+        <section class="mainFront">
+            <!-- Classes brugte, er fra Animate.style, som er brugt til at animere vores text -->
+            <h1 class="frontpageHeader animate__animated animate__fadeInLeft">PROFFESIONEL SMED</h1>
+            <p class="frontpageText animate__animated animate__fadeInLeft animate__delay-1s">Hos Træksmeden kan du forvente et seriøst firma, der sikrer kvalitet til gode priser.</p>
+            <button class="frontpageButtons frontpageButtonBlack animate__animated animate__fadeIn animate__delay-1s animate__slower" onclick="kontaktOs()">Kontakt os</button>
+            <button class="frontpageButtons frontpageButtonRed animate__animated animate__fadeIn animate__delay-1s animate__slower" onclick="formular()">Udfyld formular</button>
+        </section>
+
+        <!-- Box der kort omhandler hvem Træksmeden ApS er -->
+        <section class="welcomeSection">
+            <img class="photoshoot" src="gallery/extra/fotoshoot.png" alt="Fotoshoot">
+            <aside class="welcomeTextBox">
+                <h2 class="welcomeHeader">Velkommen til TRÆKSMEDEN ApS</h2>
+                <p class="welcomeText">Vi hos Træksmeden ApS står i faglig kompetence og god service, hvor vi har altid har kunden i fokus og præger på at lave det bedste produkt/service.<br><br>
+                    Du kan altid forvente professionel rådgivning, hvor vores nøgleværdier er viden, kvalitet og forståelse der matcher dine behov og krav.<br><br>
+                    Vi garanterer dig at vi lever op til dine behov og vi går aldrig kompromis med kvaliteten.<br>
+                    Vi er en virksomhed som tør at hoppe ud i forskellige samt udfordrende opgaver.<br><br>
+                    Vi ser frem til at høre fra dig. </p>
+            </aside>
+        </section>
+        <img class="mobilePhotoshoot" src="gallery/extra/mobileFotoshoot.png" alt="Mobile Photoshoot">
+
+        <!-- Galleri box som kan dirigere dig over til galleri (Galleri findes ikke) -->
+        <section class="gallerySection">
+            <section class="quoteBox">
+                <p>"Hos Træksmeden ApS er vi bevidste om, at alle kunder er <br> forskellige, hvorfor vi leverer en bred vifte af specialløsninger."</p>
+            </section>
+            <section class="galleryPicBox">
+                <a href="#"><img class="galleryPics" src="gallery/projects/stair.png" alt="Trappe"></a>
+                <a href="#"><img class="galleryPics" src="gallery/projects/bathinghouse.png" alt="Badehus"></a>
+                <a href="#"><img class="galleryPics" src="gallery/projects/terrace.png" alt="Terrasse"></a>
+                <a href="#"><img class="galleryPics" src="gallery/projects/flowerbox.png" alt="Blomsterkasse"></a>
+                <a href="#"><img class="galleryPics dekstopGallery" src="gallery/projects/workshop.png" alt="Værksted"></a>
+                <a href="#"><img class="galleryPics dekstopGallery" src="gallery/projects/owners.png" alt="Ejere"></a>
+                <a href="#"><img class="galleryPics dekstopGallery" src="gallery/projects/balcony.png" alt="Altan"></a>
+                <a href="#"><img class="galleryPics dekstopGallery" src="gallery/projects/diningtable.png" alt="Spisebord"></a>
+            </section>
+        </section>
+
+        <!-- Box der omhandler deres facebook -->
+        <section class="feedbackSection">
+            <!-- Box med text omkring facebook -->
+            <aside class="textBox">
+                <h2 class="facebookHeader">Seneste anmeldelser</h2>
+                <p class="facebookText">Har du lyst til at få et udsnit af vores igangværende projekter??<br><br>
+                    Få også opdateringer af vores forskellige udlejnings produkter<br><br>
+                    Vi laver både Facebook-opslag og Facebook-stories så du kan følge med i vores daglige arbejdsliv. Du kan også vores seneste opslag til højre<br><br>
+                    Klik på knappen nedenunder for at komme direkte ind på vores Facebookside</p>
+                <a class="facebookButton" href="https://www.facebook.com/Tr%C3%A6ksmeden-IS-1684092575217575/">Facebook Side</a>
+            </aside>
+            <!-- Skal fremvise deres seneste facebook post (Ikke funktionel, fremviser billede i stedet for) -->
+            <aside class="facebookPost">
+                <img class="facebookImg" src="gallery/extra/facebookPost.png" alt="Facebook Post">
+            </aside>
+        </section>
+
+
+        <section class="mobileFeedbackSection">
+            <h2 class="mobileFacebookHeader">Seneste anmeldelser</h2>
+            <p class="mobileFacebookText">Har du lyst til at få et udsnit af vores igangværende projekter??<br><br>
+                Få også opdateringer af vores forskellige udlejnings produkter<br><br>
+                Vi laver både Facebook-opslag og Facebook-stories så du kan følge med i vores daglige arbejdsliv. Du kan også vores seneste opslag til højre<br><br>
+                Klik på knappen nedenunder for at komme direkte ind på vores Facebookside</p>
+            <!-- Skal fremvise deres seneste facebook post (Ikke funktionel, fremviser billede i stedet for) -->
+            <img class="facebookImg" src="gallery/extra/facebookPost.png" alt="Facebook Post">
+            <a class="mobileFacebookButton" href="https://www.facebook.com/Tr%C3%A6ksmeden-IS-1684092575217575/">Facebook Side</a>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container buttom_border">
+            <div class="row">
+                <!--Div class betydning: col = colone, sm = smallscreens, md = medium screens, 
+                    col-sm-4 = 1/3 screen on tablet, col-md = ikke defineret, hvilket betyder at 
+                    at den er default, col-12 = 12 columns (hvilket er standard). Se ellers denne hjemmeside
+                    https://stackoverflow.com/questions/24175998/meaning-of-numbers-in-col-md-4-col-xs-1-col-lg-2-in-bootstrap -->
+
+                <div class="col-sm-4 col-md col-sm-4  col-12 col">
+
+                    <!--Footer - om os section - overskrift -->
+                    <h1 class="footer-overskrift h1-txt">
+                        OM OS
+                    </h1>
+
+                    <!--Footer - om os section - brødtekst -->
+                    <p class="p-text-omos">
+                        Vi hos TRÆKSMEDEN ApS er 
+                        <br>
+                        et meget hånddrevet firma.
+                        <br> <br>
+                        Vi får opgaven løst med god 
+                        <br>
+                        kvalitet i ordentlig tid.
+                    </p>
+
+                </div>
+
+                    <!--Div class betydning: col = colone, sm = smallscreens, md = medium screens, 
+                    col-sm-4 = 1/3 screen on tablet, col-md = ikke defineret, hvilket betyder at 
+                    at den er default, col-12 = 12 columns (hvilket er standard). Se ellers denne hjemmeside
+                    https://stackoverflow.com/questions/24175998/meaning-of-numbers-in-col-md-4-col-xs-1-col-lg-2-in-bootstrap -->
+        
+                <div class="kontakt_os col-sm-4 col-md col-sm-4  col-12 col">
+
+                    <!--Footer - kontakt os section - overskrift -->
+                    <h1 class="footer-overskrift h1-txt">
+                        KONTAKT OS
+                    </h1>
+
+                    <!--Footer - kontakt os section - brødtekst -->          
+                    <p class="p-text-kontaktos">
+                    Tlf.: 20 31 11 60 el. 20 78 80 27
+                    <br> <br>
+                    Mail: denlillelokalesmed@privat.dk
+                    <br> <br>
+                    Adresse: Kyndbyvej 56, 3630 Jægerspris
+                    <br> <br>
+                    CVR: 33518684
+                    </p>
+
+                </div>
+
+                    <!--Div class betydning: col = colone, sm = smallscreens, md = medium screens, 
+                    col-sm-4 = 1/3 screen on tablet, col-md = ikke defineret, hvilket betyder at 
+                    at den er default, col-12 = 12 columns (hvilket er standard). Se ellers denne hjemmeside
+                    https://stackoverflow.com/questions/24175998/meaning-of-numbers-in-col-md-4-col-xs-1-col-lg-2-in-bootstrap -->
+
+                <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+
+                    <!--Footer - genveje section - overskrift -->  
+                    <h1 class="genveje footer-overskrift h1-txt">
+                    GENVEJE
+                    </h1>
+                    
+                    <!--Footer - genveje section links - begyndelse --> 
+                    <ul class="footer_ul_genveje">
+
+                        <!--Footer - genveje section links - Forside --> 
+                    <li>
+                        <a href="index.html">FORSIDE</a>
+                    </li>
+                    
+                    
+                        <!--Footer - genveje section links - Vi tilbyder --> 
+                    <li>
+                        <a href="vi_tilbyder.html">VI TILBYDER</a>
+                    </li>
+
+                        <!--Footer - genveje section links - Om os --> 
+                    <li>
+                        <a href="om_os.html">OM OS</a>
+                    </li>
+                    
+                        <!--Footer - genveje section links - Kontakt os --> 
+                    <li>
+                        <a href="kontakt_os.html">KONTAKT OS</a>
+                    </li> 
+
+                        <!--Footer - genveje section links - Udlejning --> 
+                    <li>
+                        <a href="udlejning.html">UDLEJNING</a>
+                    </li>
+                        <!--Footer - genveje section links - Udlejningsbetingelser --> 
+                    <li>
+                        <a href="udlejningsbetingelser.html">UDLEJNINGSBETINGELSER</a>
+                    </li> 
+
+                    </ul> 
+                </div>
+                <!--Footer - genveje section links - slut --> 
+
+                
+                <div class=" col-sm-4 col-md  col-12 col">
+                    <!--Div class betydning: col = colone, sm = smallscreens, md = medium screens, 
+                    col-sm-4 = 1/3 screen on tablet, col-md = ikke defineret, hvilket betyder at 
+                    at den er default, col-12 = 12 columns (hvilket er standard). Se ellers denne hjemmeside
+                    https://stackoverflow.com/questions/24175998/meaning-of-numbers-in-col-md-4-col-xs-1-col-lg-2-in-bootstrap -->
+
+                    <!--Footer - Følg os section - begyndelse --> 
+                    <!--Footer - Følg os section - overskrift --> 
+                    <h1 class="follow_us footer-overskrift h1-txt">
+                        FØLG OS
+                    </h1>
+
+                    <!--Footer - Følg os section - ikon link til facebooksiden -->
+                    <ul class="social_footer_ul">
+                        <li>
+                            <a href="https://www.facebook.com/Tr%C3%A6ksmeden-IS-1684092575217575/?ref=page_internal">
+                                <img class="footer_img" src="gallery/extra/facebook.png" alt="Link to Traeksmeden's facebook page">
+                            </a>
+                        <li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--Footer - credit "created and hosted by Træksmeden ApS ©" --> 
+        <section class="credit-info">
+            <p class="credit-txt">
+                Created and hosted by Træksmeden ApS©
+            </p>
+        </section>
+        
+        <!--Footer - Slutningen --> 
+    </footer>
+
+    <!-- Linkning til vores Javascript dokument -->
+    <script src="main.js" defer></script>
+</body>
+</html>
