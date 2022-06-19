@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="forside.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="om_os.css">
+    <link rel="stylesheet" href="udlejning.css">
+
+    <title>Træksmeden ApS - Udlejningsbetingelser</title>
+    <link rel="icon" type="image/x-icon" href="gallery/logos/rund_favicon.png">
+
+    <link rel="stylesheet" href="https://use.typekit.net/lru6wig.css"> <!-- Adobe font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,200&display=swap" rel="stylesheet"> <!-- Google font - Libre Franklin -->
+    <link href="https://fonts.googleapis.com/css2?family=Carme&display=swap" rel="stylesheet"> <!-- Google font - Carme -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@700&display=swap" rel="stylesheet"> <!-- Google font - Hindi Madurai -->
+</head>
+<body>
+    <header class="desktopHeader">
+        <a class="logoBox" href="index.html">
+            <img class="logo" src="gallery/logos/firmanumre.jpg" alt="Logo">
+        </a>
+
+        <nav>
+            <button class="nav" onclick="navbarForside()">FORSIDE</button>
+            <button class="nav" onclick="navbarVitilbyder()">VI TILBYDER</button>
+            <button class="nav underline" onclick="navbarOmOs()">OM OS</button>
+            <button class="nav" onclick="navbarKontaktOs()">KONTAKT OS</button>
+            <button class="nav" onclick="navbarUdlejning()">UDLEJNING</button>
+        </nav>
+    </header>
+
+    <header class="mobileHeader">
+        <div class="topnav">
+            <a href="#home"><img class="mobileLogo" src="gallery/logos/mobileLogo.png" alt="Mobile Logo"></a>
+            <div id="myLinks">
+              <a class="burgernav" href="index.html">FORSIDE</a>
+              <a class="burgernav" href="vi_tilbyder.html">VI TILBYDER</a>
+              <a class="burgernav" href="om_os.html">OM OS</a>
+              <a class="burgernav" href="kontakt_os.html">KONTAKT OS</a>
+              <a class="burgernav" href="#">UDLEJNING</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+    </header>
+    <main>
+        <section class="boks">
+            <h1>UDLEJNING</h1>
+        </section>
+
+        <div>
+            <h2>Udlejning af diverse værktøjer/maskiner</h2>
+            <p>Vi udlejer diverse værktøjer/maskiner som man kan benyttes både privat og erhvervs.<br> 
+                Nederst kan du se hvilke værktøjer/maskiner der ledig, og derefter book dem. <br>
+                Dog er der udlejningsbetingelser - dem kan du læse ved trykke på her</p>
+        </div>
+
+        <!--En grid facade med indhold af deres udlejningsmaskiner-->
+        <section>
+            <div class="grid-container">
+                <img onchange="changeImage()" src="gallery/udlejning/Generator.png" alt="Ledig generator" id="generatorImg">
+                <img onchange="changeImage()" src="gallery/udlejning/Varmeblæsere_1.png" alt="ledig Varmeblæsere 1" id="Varmeblæsere1Img">
+                <img onchange="changeImage()" src="gallery/udlejning/Boremaskine_1.png" alt="ledig Boremaskine_1" id="Boremaskine1Img">
+                <img onchange="changeImage()" src="gallery/udlejning/Varmeblæsere_2.png" alt="ledig Varmeblæsere_2" id="Varmeblæsere2Img">
+                <img onchange="changeImage()" src="gallery/udlejning/Boremaskine_3.png" alt="ledig Boremaskine_3" id="Boremaskine3Img">
+                <img onchange="changeImage()" src="gallery/udlejning/Boremaskine_2.png" alt="ledig Boremaskine_2" id="Boremaskine2Img">
+                <img onchange="changeImage()" src="gallery/udlejning/Pladevibratorer.png" alt="ledig Pladevibratorer" id="PladevibratorerImg">
+                <img onchange="changeImage()" src="gallery/udlejning/Pladevibratorer-1.png" alt="ledig Pladevibratorer-1" id="Pladevibratorer1Img">
+                <img onchange="changeImage()" class="spanMiddle" src="gallery/udlejning/Pladevibratorer-2.png" alt="ledig Pladevibratorer-2" id="pladevibratorer2Img">
+            </div>
+        </section>
+    </main>
+   
+
+
+    <footer class="footer">
+        <div class="container buttom_border">
+            <div class="row">
+                <!--Div class betydning: col = colone, sm = smallscreens, md = medium screens, 
+                    col-sm-4 = 1/3 screen on tablet, col-md = ikke defineret, hvilket betyder at 
+                    at den er default, col-12 = 12 columns (hvilket er standard). Se ellers denne hjemmeside
+                    https://stackoverflow.com/questions/24175998/meaning-of-numbers-in-col-md-4-col-xs-1-col-lg-2-in-bootstrap -->
+
+                <div class="col-sm-4 col-md col-sm-4  col-12 col">
+
+                    <!--Footer - om os section - overskrift -->
+                    <h1 class="footer-overskrift h1-txt">
+                        OM OS
+                    </h1>
+
+                    <!--Footer - om os section - brødtekst -->
+                    <p class="p-text-omos">
+                        Vi hos TRÆKSMEDEN ApS er 
+                        <br>
+                        et meget hånddrevet firma.
+                        <br> <br>
+                        Vi får opgaven løst med god 
+                        <br>
+                        kvalitet i ordentlig tid.
+                    </p>
+
+                </div>
+
+                    <!--Div class betydning: col = colone, sm = smallscreens, md = medium screens, 
+                    col-sm-4 = 1/3 screen on tablet, col-md = ikke defineret, hvilket betyder at 
+                    at den er default, col-12 = 12 columns (hvilket er standard). Se ellers denne hjemmeside
+                    https://stackoverflow.com/questions/24175998/meaning-of-numbers-in-col-md-4-col-xs-1-col-lg-2-in-bootstrap -->
+        
+                <div class="kontakt_os col-sm-4 col-md col-sm-4  col-12 col">
+
+                    <!--Footer - kontakt os section - overskrift -->
+                    <h1 class="footer-overskrift h1-txt">
+                        KONTAKT OS
+                    </h1>
+
+                    <!--Footer - kontakt os section - brødtekst -->          
+                    <p class="p-text-kontaktos">
+                    Tlf.: 20 31 11 60 el. 20 78 80 27
+                    <br> <br>
+                    Mail: denlillelokalesmed@privat.dk
+                    <br> <br>
+                    Adresse: Kyndbyvej 56, 3630 Jægerspris
+                    <br> <br>
+                    CVR: 33518684
+                    </p>
+
+                </div>
+
+                    <!--Div class betydning: col = colone, sm = smallscreens, md = medium screens, 
+                    col-sm-4 = 1/3 screen on tablet, col-md = ikke defineret, hvilket betyder at 
+                    at den er default, col-12 = 12 columns (hvilket er standard). Se ellers denne hjemmeside
+                    https://stackoverflow.com/questions/24175998/meaning-of-numbers-in-col-md-4-col-xs-1-col-lg-2-in-bootstrap -->
+
+                <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+
+                    <!--Footer - genveje section - overskrift -->  
+                    <h1 class="genveje footer-overskrift h1-txt">
+                    GENVEJE
+                    </h1>
+                    
+                    <!--Footer - genveje section links - begyndelse --> 
+                    <ul class="footer_ul_genveje">
+
+                        <!--Footer - genveje section links - Forside --> 
+                    <li>
+                        <a href="index.html">FORSIDE</a>
+                    </li>
+                    
+                    
+                        <!--Footer - genveje section links - Vi tilbyder --> 
+                    <li>
+                        <a href="vi_tilbyder.html">VI TILBYDER</a>
+                    </li>
+
+                        <!--Footer - genveje section links - Om os --> 
+                    <li>
+                        <a href="om_os.html">OM OS</a>
+                    </li>
+                    
+                        <!--Footer - genveje section links - Kontakt os --> 
+                    <li>
+                        <a href="kontakt_os.html">KONTAKT OS</a>
+                    </li> 
+
+                        <!--Footer - genveje section links - Udlejning --> 
+                    <li>
+                        <a href="udlejning.html">UDLEJNING</a>
+                    </li>
+                        <!--Footer - genveje section links - Udlejningsbetingelser --> 
+                    <li>
+                        <a href="udlejningsbetingelser.html">UDLEJNINGSBETINGELSER</a>
+                    </li> 
+
+                    </ul> 
+                </div>
+                <!--Footer - genveje section links - slut --> 
+
+                
+                <div class=" col-sm-4 col-md  col-12 col">
+                    <!--Div class betydning: col = colone, sm = smallscreens, md = medium screens, 
+                    col-sm-4 = 1/3 screen on tablet, col-md = ikke defineret, hvilket betyder at 
+                    at den er default, col-12 = 12 columns (hvilket er standard). Se ellers denne hjemmeside
+                    https://stackoverflow.com/questions/24175998/meaning-of-numbers-in-col-md-4-col-xs-1-col-lg-2-in-bootstrap -->
+
+                <!--Footer - Følg os section - begyndelse --> 
+                    <!--Footer - Følg os section - overskrift --> 
+                    <h1 class="follow_us footer-overskrift h1-txt">
+                        FØLG OS
+                    </h1>
+
+                    <!--Footer - Følg os section - ikon link til facebooksiden -->
+                    <ul class="social_footer_ul">
+                        <li>
+                            <a href="https://www.facebook.com/Tr%C3%A6ksmeden-IS-1684092575217575/?ref=page_internal">
+                                <img class="footer_img" src="gallery/extra/facebook.png" alt="Link to Traeksmeden's facebook page">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+            
+            <!--Footer - credit "created and hosted by Træksmeden ApS ©" --> 
+            <section class="credit-info">
+                <p class="credit-txt">
+                    Created and hosted by Træksmeden ApS©
+                </p>
+            </section>
+
+        <!--Footer - Slutningen --> 
+        
+    </footer>
+    <script src="main.js" defer></script>
+</body>
+</html>
