@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Vores css dokumenter -->
+    <link rel="stylesheet" href="forsideNy.css">
     <link rel="stylesheet" href="vi_tilbyder.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="cookies.css">
@@ -43,7 +44,7 @@
     </section>
 
     <!-- Vores header element -->
-    <header>
+    <header class="desktopHeader">
         <!-- Logo -->
         <a class="logoBox" href="index.html">
             <img class="logo" src="gallery/logos/firmanumre.jpg" alt="Logo">
@@ -57,6 +58,28 @@
             <button class="nav" onclick="navbarKontaktOs()">KONTAKT OS</button>
             <button class="nav" onclick="navbarUdlejning()">UDLEJNING</button>
         </nav>
+    </header>
+
+    <!-- Mobil headeren -->
+    <!-- Vi har taget i brug af W3Schools how to version af en mobil navigationsbar, samt stylet på den, så den ikke er præcist som de for den udført -->
+    <!-- https://www.w3schools.com/howto/howto_js_mobile_navbar.asp -->
+    <header class="mobileHeader">
+        <div class="topnav">
+            <!-- Logoet fremvist i midten -->
+            <a href="index.html"><img class="mobileLogo" src="gallery/logos/stort_logo-300ppi.png" alt="Mobile Logo"></a>
+            <!-- Dropdown menuen -->
+            <div id="mobileNavbarLinks">
+                <a class="burgernav" href="index.html">FORSIDE</a>
+                <a class="burgernav" href="vi_tilbyder.html">VI TILBYDER</a>
+                <a class="burgernav" href="om_os.html">OM OS</a>
+                <a class="burgernav" href="kontakt_os.html">KONTAKT OS</a>
+                <a class="burgernav" href="udlejning.html">UDLEJNING</a>
+            </div>
+            <!-- Burgermenu ikonet med given funktion -->
+            <a href="javascript:void(0);" class="icon" onclick="mobileNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+          </div>
     </header>
 
     <!-- Hovedindhold på siden -->

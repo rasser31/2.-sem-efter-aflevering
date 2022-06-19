@@ -72,7 +72,7 @@ nav{
 
 
 
-.topnav #myLinks {
+.topnav #mobileNavbarLinks {
     display: none;
 }
 
@@ -145,6 +145,7 @@ nav{
 /*Her har jeg stylet flex kolonner*/
 .container {
     display: flex;
+    height: 450px;
 }
 
 /*Her har jeg stylet luften mellem boksen "Om os" og teksten nedenunder*/
@@ -181,6 +182,8 @@ nav{
     margin: 0vw;
     margin-top: 4vw;
     margin-left: 5vw;
+
+    padding-bottom: 15px;
 }
 
 /*Her har jeg stylet "Kontakt" og "Fomular" knappernes margin så de er placeret rigtigt på siden*/
