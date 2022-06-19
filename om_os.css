@@ -241,6 +241,8 @@ nav{
     margin-left: 1.750vw;
     margin-top: 0vw;
     margin-bottom: 0vw;
+
+    width: 500px;
 }
 
 /*Her har jeg placeret logoet på siden (Midterste billede til højre) */
@@ -248,6 +250,8 @@ nav{
     margin-top: 0.75vw;
     margin-right: 2.25vw;
     margin-left: 2vw;
+
+    width: 500px;
 }
 
 /*Her har jeg placeret adresse på siden (Nederste billede til højre)*/
@@ -255,6 +259,8 @@ nav{
     margin-top: 0.25vw;
     margin-right: 2.25vw;
     margin-left:1.750vw;
+
+    width: 500px;
 }
 
 
@@ -274,7 +280,7 @@ nav{
     font-family: Rama Gothic M;
     font-size: 4vw;
     margin: 0.05vw;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .tekst {
