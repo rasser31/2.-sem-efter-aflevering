@@ -1,3 +1,9 @@
+
+.boks{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
 @media only screen and (max-width: 600px){
     body{
         background-color: white;
@@ -16,8 +22,11 @@
    }
    .boks {
        font-size: 100px;
-       width: auto;
+       margin-left: 5vw;
+       padding: 0.5rem 1rem;
    }
+
+   
 
    ol {
         margin: 0px;

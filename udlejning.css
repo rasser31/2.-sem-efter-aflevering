@@ -5,12 +5,20 @@
 }
 
 .boks{
-    margin: 3vw;
-    margin-left: 5vw;
+    background-color: black;
+    border: 0.15vw solid red;
+    text-align: center;
+    color: white;
+    font-family: Rama Gothic M;
+    padding: 0 2.5rem;
+    text-decoration: solid;
+    display: inline-block;
+    margin-left: 4.7rem;
 }
 
 .boks h1{
-    font-size: 30px;
+    margin: 0vw;
+    font-size: 4rem;
 }
 
 .tilbageUdlejning{

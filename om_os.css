@@ -113,10 +113,8 @@ nav{
 }
 
 .omOsMainPage{
-    border-top: 1px solid black;
-    padding-top: 20px;
-
-    padding-left: 10px; padding-right: 10px;
+    padding-left: 10px; 
+    padding-right: 10px;
 }
 
 
@@ -129,17 +127,19 @@ nav{
     border: 0.15vw solid red;
     text-align: center;
     color: white;
-    font-size: 2.5vw;
     font-family: Rama Gothic M;
-    padding: 0vw 4vw;
-    text-decoration: none;
+    padding: 0 2.5rem;
+    text-decoration: solid;
     display: inline-block;
-    margin-left: 5vw;
+    margin-left: 4.7rem;
+    margin-top: 0rem;
 }
 
 .boks h1{
-    margin: 0.5vw;
-    font-size: 3vw;
+    margin: 0vw;
+    font-size: 4rem;
+    font-weight: 600;
+    
 }
 
 /*Her har jeg stylet flex kolonner*/
@@ -157,7 +157,7 @@ nav{
 .text-col p{
     text-align: left;
     font-size: 1,9vw;
-    font-family: carme;
+    font-family: 'Carme', sans-serif;
     margin: 0vw;
     margin-top: 0vw;
     margin-left: 5vw;
@@ -230,7 +230,7 @@ nav{
     max-width: 60%;
     align-items: center;
     margin-bottom: 0.25vw;
-    margin-right: 19.25vw;
+    margin-right: 0;
     margin-left: 12.5vw;
     object-position: left;
 }
@@ -399,18 +399,13 @@ nav{
     }
 
     .boks {
-        background-color: black;
-        border: 0.15vw solid red;
-        text-align: center;
-        color: white;
-        width: 30%;
-        height: 40px;
-        margin-left: auto;
-        margin-right: auto;
+        font-size: 100px;
+        margin-left: 5vw;
+        padding: 0.5rem 3rem;
     }
 
     .boks h1{
-        font-size: 30px;
+        font-size: 3rem;
     }
 
     .kf{

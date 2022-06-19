@@ -98,16 +98,16 @@ h2{
 /* kontakt os */
 .boks {
     background-color: black;
-    border: 0.20rem solid red;
+    border: 0.15vw solid red;
     text-align: center;
     color: white;
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: Rama Gothic M;
     font-weight: 600;
-    padding: 0 1rem;
+    padding: 0 2rem;
     text-decoration: solid;
     display: inline-block;
-    margin-left: 10rem;
+    margin-left: 5rem;
 }
 
 h3{
