@@ -29,24 +29,27 @@ footer {
 .h1-txt { 
     padding-top:0.75vw ; 
     margin-bottom:1vw ;
-    margin-left: 15vw;
+    margin-left: 12vw;
     font-family: rama-gothic-m, sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 /*footer - brødtekst indstillinger*/
 footer p { 
-    font-size:1.5vw; 
+    font-size:1vw; 
     color:white; 
     padding-bottom:0vw; 
     margin-bottom:0.4vw;
     font-family: 'Carme', sans-serif ;
-    margin-left: 10vw;
 }
 
 /*footer - kontakt os indstillinger*/
+.h1-kontaktos{
+    margin-left: 10vw;
+}
+
 .kontakt_os{
-    margin-left: 5vw;
+    margin-left: 2vw;
 }
 
 /*footer - om os indstillinger*/
@@ -54,7 +57,7 @@ footer p {
     padding-bottom:0.75vw ;
     text-align: center;
     width: 100%;
-    margin-left: 5.2vw;
+    margin-left: 5vw;
     
 }
 
@@ -62,22 +65,27 @@ footer p {
 .p-text-kontaktos{
     padding-bottom:0.75vw ;
     text-align: center;
-    margin-left: 6.75vw;
+    margin-left: 5vw;
+}
+
+.p-text-kontaktos a{
+    text-decoration: none;
+    color: #FFF;
 }
 
 /*footer - links til genveje*/
 .genveje {
-    margin-left: 13.5vw;
+    margin-left: 10vw;
     margin-bottom: -2vw;
 }
 
 .footer_ul_genveje { 
     margin:2vw ; 
     list-style-type:none ; 
-    font-size:1.5vw; 
+    font-size:1vw; 
     padding:0vw 0vw 1vw 0vw ; 
     text-decoration: none;
-    margin-left: 8.5vw;
+    margin-left: 7vw;
     text-align: center;
     margin-top: 2vw;
     font-family: 'Carme', sans-serif ;
@@ -92,15 +100,15 @@ footer p {
 
 /*footer - følg os indstillinger*/
 .follow_us{
-    margin-top: -10vw;
-    margin-left: 13.9vw;
+    margin-top: 1;
+    margin-left: 1;
 }
 
 /*footer - ikon til facebooksiden*/
 .footer_img{
     height: 2.9835vw;
     width: 3.0005vw;
-    margin-left: 13.5vw;
+    margin-left: 10.5vw;
 }
 
 
@@ -123,7 +131,20 @@ footer p {
     .h1-txt{
         font-size:8vw;
         font-family: rama-gothic-m, sans-serif;
-        margin-left: 18vw;
+        margin-left: 24vw;
+        margin-top: 4vw;
+    }
+
+    .h1-omos{
+        margin-left: 22vw;
+    }
+
+    .p-text-kontaktos{
+        margin-left: 12vw;
+    }
+
+    .p-text-omos{
+        margin-left: 7.5vw;
     }
 
     .footer p{
@@ -147,12 +168,12 @@ footer p {
 
     .follow_us{
             margin-top: 4vw;
-            margin-left: 24vw;
+            margin-left: 16vw;
     }
 
     .footer_img{
-        height: 12.9835vw;
-        width: 13.0005vw;
-        margin-left: 15vw;
+        height: 10vw;
+        width: 10vw;
+        margin-left: 7.5vw;
     }
   }
