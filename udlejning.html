@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="om_os.css">
     <link rel="stylesheet" href="udlejning.css">
+    <link rel="stylesheet" href="cookies.css">
 
     <title>Træksmeden ApS - Udlejningsbetingelser</title>
     <link rel="icon" type="image/x-icon" href="gallery/logos/rund_favicon.png">
@@ -21,6 +22,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@700&display=swap" rel="stylesheet"> <!-- Google font - Hindi Madurai -->
 </head>
 <body>
+
+     <!--Cookies fra :https://github.com/0shuvo0/Angle-Brace-Tuts/blob/master/Cookie%20Consent-->
+     <section>
+        <div class="cookie-consent-modal">
+            <div class="content">
+                <h1>Allow Cookies</h1>
+                <p>Vi bruger cookies til at tilpasse vores indhold og annoncer, til at vise dig funktioner til sociale medier og til at analysere vores trafik. Vi deler også oplysninger om din brug af vores hjemmeside med vores partnere inden for sociale medier, annonceringspartnere og analysepartnere. Vores partnere kan kombinere disse data med andre oplysninger, du har givet dem, eller som de har indsamlet fra din brug af deres tjenester.</p>
+                <div class="btns">
+                    <button class="btn cancel">cancel</button>
+                    <button class="btn accept">accept</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <header class="desktopHeader">
         <a class="logoBox" href="index.html">
             <img class="logo" src="gallery/logos/firmanumre.jpg" alt="Logo">
@@ -29,9 +45,9 @@
         <nav>
             <button class="nav" onclick="navbarForside()">FORSIDE</button>
             <button class="nav" onclick="navbarVitilbyder()">VI TILBYDER</button>
-            <button class="nav underline" onclick="navbarOmOs()">OM OS</button>
+            <button class="nav" onclick="navbarOmOs()">OM OS</button>
             <button class="nav" onclick="navbarKontaktOs()">KONTAKT OS</button>
-            <button class="nav" onclick="navbarUdlejning()">UDLEJNING</button>
+            <button class="nav underline" onclick="navbarUdlejning()">UDLEJNING</button>
         </nav>
     </header>
 
@@ -51,19 +67,21 @@
           </div>
     </header>
     <main>
+
         <section class="boks">
             <h1>UDLEJNING</h1>
         </section>
 
         <div>
             <h2>Udlejning af diverse værktøjer/maskiner</h2>
-            <p>Vi udlejer diverse værktøjer/maskiner som man kan benyttes både privat og erhvervs.<br> 
+            <p>Vi udlejer diverse værktøjer/maskiner som man kan benyttes både privat og erhvervs.
+                <br> 
                 Nederst kan du se hvilke værktøjer/maskiner der ledig, og derefter book dem. <br>
                 Dog er der udlejningsbetingelser - dem kan du læse ved trykke på her</p>
         </div>
 
         <!--En grid facade med indhold af deres udlejningsmaskiner-->
-        <section>
+        <section class="center">
             <div class="grid-container">
                 <img onchange="changeImage()" src="gallery/udlejning/Generator.png" alt="Ledig generator" id="generatorImg">
                 <img onchange="changeImage()" src="gallery/udlejning/Varmeblæsere_1.png" alt="ledig Varmeblæsere 1" id="Varmeblæsere1Img">

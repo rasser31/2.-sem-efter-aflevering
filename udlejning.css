@@ -9,6 +9,10 @@
     margin-left: 5vw;
 }
 
+.boks h1{
+    font-size: 30px;
+}
+
 .tilbageUdlejning{
     float: right;
     margin-right: 150px;
@@ -88,9 +92,14 @@ p{
     margin-block-end: 2em;
 }
 
+.center {
+    margin: auto;
+    width: 65%;
+  }
+
 .grid-container { 
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     width: 25%;
     margin: auto;
@@ -141,28 +150,47 @@ p{
     margin-right: auto;
 }
 
-/* på skærme der mindre end 600px*/
+/* på skærme der mindre end 800px*/
 @media screen and (max-width: 600px){
     .grid-container{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(1,1fr);
-        width: 25%;
-        margin: 0 auto;
+        display: inline-block;
+        margin: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+        align-items: center;
     }
 
     .grid-container img{
-        width: 10rem;
-        margin: 0 auto;
-        margin-left: 0px;
-        margin-right: 0px;
+        width: 300px;
+        margin: auto;
+        margin-left: 0%;
+       
     }
-    .spanMiddle{
-        grid-column: span 0;
-      }
+
+    h2{
+        font-size: 7vw;
+        margin-inline-start: 12%;
+    }
+
+    p{
+        font-size: 3vw;
+        margin-inline-start: 12%;
+    }
+    
+    .boks{
+        margin: 2vw;
+        margin-left: 26%;
+        margin-right: 20%;
+        width: auto;
+    }
+
+    .boks h1{
+        font-size: 2rem;
+    }
+    
 }
 
-/* på skærme der mindre end 600px*/
+/* på skærme der mindre end 800px
 @media screen and (max-width: 800px){
     .grid-container{
         display: grid;
@@ -179,3 +207,4 @@ p{
         margin-right: 0px;
     }
 }
+*/

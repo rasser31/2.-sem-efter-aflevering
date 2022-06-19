@@ -364,3 +364,83 @@ header button:hover{
     background-color: red;
     margin-left: 0; 
 }
+
+
+@media screen and (max-width: 600px){
+    .mainFront{
+        padding-top: 10px;
+    }
+
+    .OffersText{
+        font-size: 0.85rem;
+        padding-top: 30px;
+        width: auto;
+    }
+
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+        padding-left: 2rem;
+        padding-top: 4.5rem;
+    }
+    
+    .wrapper {
+        display: block;
+        padding-left: 1rem;
+
+    }
+
+    .offerIcon{
+        display: block;
+        margin: auto;
+        margin-left: -8%;
+        height: 10rem;
+        width: 10.5rem;
+    }
+
+    .offerBox{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .OffersHeader{
+        font-size: 1.5rem;
+    
+        margin: 0;
+        width: 100px;
+    }
+
+    .underOfferText{
+        display: block;
+        font-size: 1rem;
+        margin-block-end: 1rem;
+        margin-block-start: 3rem;
+        margin-inline-end: 2rem;
+        margin-inline-start: 3rem;
+    }
+    
+    .frontpageButtons{
+        margin-top: 0rem;
+        margin-left: 22%;
+    }
+
+    .underOfferImg{
+        float: none;
+        height: auto;
+        margin-block-end: 1rem;
+        margin-block-start: 5rem;
+        margin-inline-start: 5rem;
+    }
+    
+    .underOfferImg2{
+        float: none;
+        padding-right: 0rem;
+        width: 100%;
+        max-width: 20rem;
+        height: auto;
+        display:block;
+        position:relative;
+        margin-block-end: 1rem;
+        margin-block-start: 4rem;
+        margin-inline-start: 5rem;
+    }
+}
