@@ -338,7 +338,7 @@ header button:hover{
     font-weight: 600;
     font-style: normal;
     color: white;
-    font-size: 6rem;
+    font-size: 4rem;
     margin: 0 0;
 }
 
@@ -369,19 +369,19 @@ header button:hover{
 
 @media screen and (max-width: 600px){
     .mainFront{
-        padding-top: 10px;
+        padding-top: 5px;
     }
 
     .OffersText{
-        font-size: 0.85rem;
-        padding-top: 30px;
+        font-size: 0.75rem;
+        padding-top: 0px;
         width: auto;
     }
 
     .grid-container{
         grid-template-columns: 1fr 1fr;
-        padding-left: 2rem;
-        padding-top: 4.5rem;
+        padding-left: 0rem;
+        padding-top: 5rem;
     }
     
     .wrapper {
@@ -406,8 +406,10 @@ header button:hover{
     .OffersHeader{
        font-size: 2rem; 
        margin-left: 0vw;
-       padding: 0.5rem 0rem;
+       padding: 2px 1px;
        margin: 0vm;
+       margin-bottom: 5px;
+       width: 150px;
     }
 
     .underOfferText{
@@ -416,32 +418,32 @@ header button:hover{
         margin-block-end: 1rem;
         margin-block-start: 3rem;
         margin-inline-end: 2rem;
-        margin-inline-start: 3rem;
+        margin-inline-start: 2rem;
     }
     
     .frontpageButtons{
         margin-top: 0rem;
-        margin-left: 22%;
+        margin-left: 18%;
     }
 
     .underOfferImg{
         float: none;
         height: auto;
         margin-block-end: 1rem;
-        margin-block-start: 5rem;
-        margin-inline-start: 5rem;
+        margin-block-start: 3rem;
+        margin-inline-start: 2rem;
     }
     
     .underOfferImg2{
         float: none;
         padding-right: 0rem;
         width: 100%;
-        max-width: 20rem;
+        max-width: 15rem;
         height: auto;
-        display:block;
-        position:relative;
+        display: block;
+        position: relative;
         margin-block-end: 1rem;
-        margin-block-start: 4rem;
-        margin-inline-start: 5rem;
+        margin-block-start: 2.5rem;
+        margin-inline-start: 4rem;
     }
 }
